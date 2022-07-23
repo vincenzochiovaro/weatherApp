@@ -4,4 +4,4 @@ In this application you can see the real time weather and temperature of your ac
 Created with HTML, CSS, and JAVASCRIPT. 
  API FROM: https://openweathermap.org/
  
- Uploaded on GitHub-Pages: 
+ Uploaded on GitHub-Pages:  https://vincenzochiovaro.github.io/weatherApp/
