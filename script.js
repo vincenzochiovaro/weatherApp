@@ -33,15 +33,16 @@ window.addEventListener("load", () => {
           let icon = document.querySelector(".icon");
           if (main == "Rain") {
             icon.src =
-              "https://icons-for-free.com/download-icon-clouds+rain+rainy+weather+icon-1320196492721656738_512.png";
+              "https://icons-for-free.com/iconfiles/png/128/cloud+inkcontober+rain+icon-1320183879572378692.png";
           } else if (main == "Clouds") {
             icon.src =
-              "https://cdn-icons-png.flaticon.com/512/3313/3313908.png";
+              "https://icons-for-free.com/iconfiles/png/128/cloudy+foggy+weather+icon-1320196574869514194.png";
           } else if (main == "Clear") {
             icon.src =
-              "https://www.clipartmax.com/png/middle/66-662992_weather-clear-sky-weather-symbol.png";
+              "https://icons-for-free.com/iconfiles/png/128/spring+summer+sun+sunny+weather+icon-1320195255197893733.png";
           } else {
-            icon.src = "https://static.thenounproject.com/png/3541594-200.png";
+            icon.src =
+              "https://icons-for-free.com/iconfiles/png/128/rain+rainbow+sign+sunny+weather+icon-1320196636747000582.png";
           }
         });
     });
