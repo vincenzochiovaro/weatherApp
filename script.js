@@ -23,11 +23,26 @@ window.addEventListener("load", () => {
 
           const { temp } = data.main;
           const { name } = data;
-          const { description } = data.weather[0];
+          const { main } = data.weather[0];
 
           temperatureDegree.textContent = temp;
           locationTimezone.textContent = name;
-          temperatureDescription.textContent = description;
+          temperatureDescription.textContent = main;
+
+          // icons
+          let icon = document.querySelector(".icon");
+          if (main == "Rain") {
+            icon.src =
+              "https://icons-for-free.com/download-icon-clouds+rain+rainy+weather+icon-1320196492721656738_512.png";
+          } else if (main == "Clouds") {
+            icon.src =
+              "https://cdn-icons-png.flaticon.com/512/3313/3313908.png";
+          } else if (main == "Clear") {
+            icon.src =
+              "https://www.clipartmax.com/png/middle/66-662992_weather-clear-sky-weather-symbol.png";
+          } else {
+            icon.src = "https://static.thenounproject.com/png/3541594-200.png";
+          }
         });
     });
   }
