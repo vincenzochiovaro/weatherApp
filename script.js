@@ -19,7 +19,6 @@ window.addEventListener("load", () => {
           return response.json();
         })
         .then((data) => {
-          console.log(data);
 
           const { temp } = data.main;
           const { name } = data;
