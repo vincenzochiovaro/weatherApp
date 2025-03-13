@@ -28,7 +28,6 @@ window.addEventListener("load", () => {
           locationTimezone.textContent = name;
           temperatureDescription.textContent = main;
 
-          // icons
           let icon = document.querySelector(".icon");
           icon.src = `https://static01.nyt.com/images/2014/05/25/magazine/25wmt/mag-25WMT-t_CA0-articleLarge.jpg?quality=75&auto=webp&disable=upscale`;
         });
