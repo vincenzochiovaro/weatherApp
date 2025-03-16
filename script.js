@@ -28,21 +28,8 @@ window.addEventListener("load", () => {
           locationTimezone.textContent = name;
           temperatureDescription.textContent = main;
 
-          // icons
           let icon = document.querySelector(".icon");
-          if (main == "Rain") {
-            icon.src =
-              "https://icons-for-free.com/iconfiles/png/128/cloud+inkcontober+rain+icon-1320183879572378692.png";
-          } else if (main == "Clouds") {
-            icon.src =
-              "https://icons-for-free.com/iconfiles/png/128/cloudy+foggy+weather+icon-1320196574869514194.png";
-          } else if (main == "Clear") {
-            icon.src =
-              "https://icons-for-free.com/iconfiles/png/128/spring+summer+sun+sunny+weather+icon-1320195255197893733.png";
-          } else {
-            icon.src =
-              "https://icons-for-free.com/iconfiles/png/128/rain+rainbow+sign+sunny+weather+icon-1320196636747000582.png";
-          }
+          icon.src = `https://static01.nyt.com/images/2014/05/25/magazine/25wmt/mag-25WMT-t_CA0-articleLarge.jpg?quality=75&auto=webp&disable=upscale`;
         });
     });
   }
